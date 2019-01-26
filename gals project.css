@@ -1,0 +1,195 @@
+body {
+  background-image: url("cork.jpg");
+}
+
+.headfont {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  font-family: weather sunday,sans-serif;
+  position: relative;
+  top:5px;
+  text-decoration: underline;
+  color:black;
+    
+}
+@font-face {
+  font-family: weather sunday;
+  src: url("Weather\ Sunday\ -\ Personal\ Use.otf");
+}
+.form{
+  height: 200px;
+  width: 900px;
+  background-color: white;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px) ;
+  border:none!important;
+  border-radius: 0%!important;
+  color:black!important;
+  box-shadow: 10px 10px 5px  rgb(56, 56, 56);
+  position: relative;
+  left:-100px;
+}
+.removeTopBorder {
+  background-color:transparent;
+  border:none!important;
+  box-shadow:none;
+  direction: ltr;
+  position: relative;
+  right:25px;
+  width: 600px;
+  top:20px;
+  color:black!important;
+}
+
+.form-control::-webkit-input-placeholder {
+opacity: 0.7;
+}
+
+.form-control:-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.form-control::-ms-input-placeholder {
+  opacity: 0.7;
+}
+
+.form-control::placeholder {
+  opacity: 0.7;
+}
+
+.pin2{
+  position: relative;
+  top: 0px;
+  left:520px;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+}
+.taskcard {
+  display: inline-block;
+    background-color:rgb(247, 247, 112);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    box-shadow: 10px 10px 10px  rgb(56, 56, 56);
+    border-width: thin;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    width:200px;
+    height: 200px;
+    position: relative;
+   
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);  
+    animation:card 2s; 
+    visibility: visible;
+}
+
+.taskcard:hover .iconstyle {
+  opacity: 1;
+}
+
+.taskstyle {
+  display: inline-block;
+  position: absolute;
+  height: 10.66em;
+  width: 7.61em;
+  top: 1.2em;
+  left: 0.5em;
+  font-size: 1.6em;
+  font-family: cursive;
+  overflow: auto;
+  word-wrap: break-word;
+  color: #323538;
+}
+
+.datestyle {
+  display: inline-block;
+  position: absolute;
+  top: 0.2em;
+  left: 0.6em;
+  font-size: 1.2em;
+}
+
+.timestyle {
+  display: inline-block;
+  position: absolute;
+  top: 0.2em;
+  right: 0.6em;
+  font-size: 1.2em;
+}
+
+.borderfix {
+  border-bottom: 1px solid #0f5aa5;
+  border-top: 1px solid #0f5aa5;
+}
+
+#dateid::before {
+  content: 'Finish date';
+  margin-right: 0.6em;
+  color: #6c757d;
+  opacity: 0.7;
+}
+
+#timeid::before {
+  content: 'Deadline';
+  margin-right: 1.5em;
+  color: #6c757d;
+  opacity: 0.7;
+}
+
+.errmsg {
+  font-family: weather sunday;
+  font-size: 2em;
+  font-weight: bolder;
+  color:red;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  top:-80px;
+}
+
+.iconstyle {
+  opacity: 0;
+  position: absolute;
+  top: 0.7em;
+  right: 4.4em;
+}
+
+
+
+input[type="text"], textarea, .form-control:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: 1px solid #0f5aa5;
+  border-right: 0;
+  background-color:transparent;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color:transparent;
+  opacity: 1;
+}
+
+.btn{
+  background-color:rgb(247, 247, 112);
+  font-family: weather sunday;
+  text-decoration: underline;
+  box-shadow: 5px 5px 5px  rgb(56, 56, 56);
+  border-width: thin;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  width:100px;
+  height: 100px;
+  position: relative;
+  top:-140px;
+  left: 500px;
+  font-weight: bold;
+  -ms-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+
+/*# sourceMappingURL=style.css.map */
